@@ -24,8 +24,36 @@ li {
 
 .weather-app {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 30px auto 20px;
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 10px;
+  margin-bottom: 25px;
+  width: 64px;
+  height: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.weather-temperature small {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.fahrenheit {
+  text-decoration: none;
 }
