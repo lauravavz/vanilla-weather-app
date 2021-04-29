@@ -37,8 +37,16 @@ function displayTemperature(response) {
   getForecast(response.data.coord);
 }
 
+function handleSubmit(event) {
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#city-input");
 
+}
 
 let apiKey = "c9b707c9a800bc82a565bfc394bcf972";
 let apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=San Francisco&appid=c9b707c9a800bc82a565bfc394bcf972&units=metric";
 axios.get(apiUrl).then(displayTemperature);
+
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handleSubmit)
