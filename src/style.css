@@ -58,6 +58,17 @@ li:first-letter {
   top: -34px;
 }
 
-.fahrenheit {
+.footer {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#fahrenheit-link {
   text-decoration: none;
+}
+
+#fahrenheit-link:hover {
+  cursor: pointer;
+  color: lightseagreen;
+  text-decoration: underline;
 }
