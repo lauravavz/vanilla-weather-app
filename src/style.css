@@ -86,19 +86,3 @@ li:first-letter {
   font-size: 14px;
   font-weight: 300;
 }
-
-#fahrenheit-link {
-  text-decoration: none;
-  color: darkcyan;
-}
-
-#celsius-link {
-  text-decoration: none;
-  color: darkcyan;
-}
-
-.weather-temperature .active {
-  color: rgb(33, 33, 33);
-  cursor: default;
-  text-decoration: none;
-}
