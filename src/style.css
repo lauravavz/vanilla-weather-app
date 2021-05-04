@@ -1,19 +1,19 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "maven pro";
 }
 
 h1 {
-  color: #878787;
-  font-size: 24px;
-  font-weight: 100;
+  color: #000;
+  font-size: 35px;
+  font-weight: 400;
   line-height: 28px;
 }
 
 li {
   list-style: none;
   color: rgb(135, 135, 135);
-  font-size: 16px;
-  font-weight: 100;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 19px;
 }
 
@@ -30,8 +30,9 @@ li:first-letter {
   max-width: 600px;
   margin: 30px auto 20px;
   padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
+  border: 2px solid #dadde1;
+  border-radius: 15px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 .overview {
@@ -41,8 +42,8 @@ li:first-letter {
 .weather-temperature img {
   margin-right: 10px;
   margin-bottom: 25px;
-  width: 64px;
-  height: 64px;
+  width: 75px;
+  height: 75px;
 }
 
 .weather-temperature strong {
@@ -64,13 +65,13 @@ li:first-letter {
 }
 
 .weather-forcast-date {
-  font-size: 16px;
-  color: #878787;
-  font-weight: 100;
+  font-size: 20px;
+  color: #000;
+  font-weight: 400;
 }
 
 .weather-forcast-temperature {
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .weather-forcast-temperature-max {
@@ -85,4 +86,16 @@ li:first-letter {
 .footer {
   font-size: 14px;
   font-weight: 300;
+}
+
+#city-input {
+  border-radius: 10px;
+  border: 2px solid #dadde1;
+}
+
+#search-button {
+  background-color: #7eca9c;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
 }
